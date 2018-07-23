@@ -1,0 +1,6 @@
+public Report GetDataAndGenerateReport ( ) 
+{ 
+  var buffer = GetAllData( );  
+  var report = GenerateReport(buffer); 
+  return report; 
+}  

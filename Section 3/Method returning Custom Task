@@ -1,0 +1,10 @@
+async Task<Process> ReturnObject() 
+{ 
+     Process pro = new Process(); 
+     pro.Id = 3;  pro.AutomationId =
+     "Aut3"; 
+     pro.MemoryConsumption = "3KB"; 
+     await Task.Delay(5000); 
+     Console.WriteLine(pro); 
+     return pro; 
+} 

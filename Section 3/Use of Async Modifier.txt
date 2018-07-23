@@ -1,0 +1,6 @@
+async Task <string> GetHugeDataAsync() 
+
+{ 
+     await Task.Delay (5000); 
+     return "data";   
+} 

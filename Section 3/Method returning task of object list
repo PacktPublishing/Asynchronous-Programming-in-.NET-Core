@@ -1,0 +1,11 @@
+async Task<List<Process>> ReturnObjectList()
+{ 
+  List<Process> processes = new List<Process>( ); 
+  processes.Add(new Process 
+            { Id = 1,
+		 AutomationId ="Aut1",
+		 MemoryConsumption = "1 GB" 
+		 }); 
+  await Task.Delay(5000); 
+  return processes; 
+ } 
